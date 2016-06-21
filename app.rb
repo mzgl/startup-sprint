@@ -19,10 +19,22 @@ class App < Sinatra::Base
   end
 
   get '/reddit' do
-    # TODO: we can probably get the listings with something like:
-    # JSON.parse(RestClient.get('http://reddit.com/.json'))
 
-    @listings = []
+    require 'httparty'
+
+    url = 'http://reddit.com/.json'
+    response = HTTParty.get(url)
+    parsed = response.parsed_response
+    @listings = Array.new
+
+    for x in 1..24
+      title = parsed['data']['children'][x]['data']['title']
+      puts x
+      puts @listings
+      @listings.push(title)
+    end
+
+    @listings
 
     erb :reddit
   end
@@ -54,6 +66,12 @@ class App < Sinatra::Base
 get '/rainbow' do
   erb :rainbow
 end
+
+get '/home' do
+  redirect '/'
+end
+
+
 
   get '/youtube' do
     erb :youtube

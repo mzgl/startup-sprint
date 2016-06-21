@@ -9,8 +9,13 @@ GEM
     eventmachine (1.2.0.1)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.2)
     method_source (0.8.2)
     mime-types (2.99.2)
+    multi_xml (0.5.5)
     netrc (0.11.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
@@ -60,6 +65,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  httparty
+  json (= 1.8.2)
   pry
   rack-test
   rake
@@ -69,9 +76,6 @@ DEPENDENCIES
   shotgun
   sinatra
   thin
-
-RUBY VERSION
-   ruby 2.2.0p0
 
 BUNDLED WITH
    1.12.5
