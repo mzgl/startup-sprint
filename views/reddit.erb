@@ -1,3 +1,5 @@
 <h1>Recent Reddit Comments</h1>
 
-<%= puts @listings %>
+<% (1..23).to_a.each do |n| %>
+  <p>Comment: <%= @listings[n] %></p>
+<% end %>
