@@ -33,7 +33,7 @@ class App < Sinatra::Base
       @listings.push(title)
     end
 
-@listings
+    @listings
 
     erb :reddit
   end
