@@ -58,6 +58,11 @@ class App < Sinatra::Base
 
     erb :team
   end
+
+  get '/schedule' do
+
+    erb :schedule
+  end
 end
 
 class App < Sinatra::Base
