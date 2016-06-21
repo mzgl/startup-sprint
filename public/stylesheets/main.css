@@ -14,6 +14,9 @@ html {
     line-height: 1.4;
 }
 
+.column{
+  display: inline-block;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -21,6 +24,33 @@ html {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
+#redRectangle {
+  background-color: red;
+}
+
+#orangeRectangle {
+  background-color: orange;
+}
+
+#yellowRectangle {
+  background-color: yellow;
+}
+
+#greenRectangle {
+  background-color: green;
+}
+
+#blueRectangle {
+  background-color: blue;
+}
+
+#indigoRectangle {
+  background-color: indigo;
+}
+
+#violetRectangle {
+  background-color: violet; 
+}
 
 ::selection {
     background: #b3d4fc;
