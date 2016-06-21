@@ -18,7 +18,7 @@ class App < Sinatra::Base
   end
 
   get '/reddit' do
-    
+
     require 'httparty'
 
     url = 'http://reddit.com/.json'
@@ -68,9 +68,9 @@ end
 
 get '/home' do
   redirect '/'
-end 
-
 end
+
+
 
   get '/youtube' do
     erb :youtube
