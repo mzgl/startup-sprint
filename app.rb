@@ -50,6 +50,10 @@ class App < Sinatra::Base
     erb :schedule
   end
 
+get '/rainbow' do
+  erb :rainbow
+end
+
   get '/youtube' do
     erb :youtube
   end
@@ -57,6 +61,10 @@ class App < Sinatra::Base
   get '/team' do
 
     erb :team
+  end
+
+  get '/splash' do
+    erb :splash
   end
 
   get '/schedule' do
