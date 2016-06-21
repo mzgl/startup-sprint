@@ -50,6 +50,10 @@ class App < Sinatra::Base
     erb :schedule
   end
 
+get '/rainbow.erb' do
+  erb :team
+end 
+
   get '/team' do
 
     erb :team
