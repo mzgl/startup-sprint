@@ -64,7 +64,7 @@ end
   end
 
   get '/splash' do
-    erb :splash    
+    erb :splash
   end
 
   get '/schedule' do
