@@ -63,6 +63,10 @@ end
     erb :team
   end
 
+  get '/splash' do
+    erb :splash    
+  end
+
   get '/schedule' do
 
     erb :schedule
