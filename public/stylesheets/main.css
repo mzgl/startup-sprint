@@ -21,6 +21,9 @@ html {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
+#redRectangle {
+  fill: red;
+}
 
 ::selection {
     background: #b3d4fc;
