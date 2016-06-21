@@ -25,7 +25,7 @@ html {
  * Customize the background color to match your design.
  */
 #redRectangle {
-  fill: red;
+  background-color: red;
 }
 
 ::selection {
