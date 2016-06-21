@@ -28,6 +28,30 @@ html {
   background-color: red;
 }
 
+#orangeRectangle {
+  background-color: orange;
+}
+
+#yellowRectangle {
+  background-color: yellow;
+}
+
+#greenRectangle {
+  background-color: green;
+}
+
+#blueRectangle {
+  background-color: blue;
+}
+
+#indigoRectangle {
+  background-color: indigo;
+}
+
+#violetRectangle {
+  background-color: violet; 
+}
+
 ::selection {
     background: #b3d4fc;
     text-shadow: none;
