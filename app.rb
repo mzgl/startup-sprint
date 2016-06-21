@@ -54,6 +54,12 @@ get '/rainbow' do
   erb :rainbow
 end
 
+get '/home' do
+  redirect '/'
+end 
+
+end
+
   get '/youtube' do
     erb :youtube
   end
