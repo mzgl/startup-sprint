@@ -54,9 +54,18 @@ get '/rainbow' do
   erb :rainbow
 end
 
+  get '/youtube' do
+    erb :youtube
+  end
+
   get '/team' do
 
     erb :team
+  end
+
+  get '/schedule' do
+
+    erb :schedule
   end
 end
 
