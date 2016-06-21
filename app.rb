@@ -51,8 +51,8 @@ class App < Sinatra::Base
   end
 
 get '/rainbow.erb' do
-  erb :team
-end 
+  erb :rainbow
+end
 
   get '/team' do
 
