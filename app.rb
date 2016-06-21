@@ -50,7 +50,7 @@ class App < Sinatra::Base
     erb :schedule
   end
 
-get '/rainbow.erb' do
+get '/rainbow' do
   erb :rainbow
 end
 
